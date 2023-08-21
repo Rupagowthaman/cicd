@@ -37,7 +37,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-
     - name: Deploy to Staging server
       uses: easingthemes/ssh-deploy@main
       with:
